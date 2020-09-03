@@ -1,0 +1,9 @@
+transition($props...)
+    $dur = 0.1s
+    $fn = ease
+    $transitions = ()
+
+    for $prop in $props
+        push($transitions, s("%s %s %s,"), $prop, $dur, $fn)
+
+    transition: $transitions

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/",
+        "target": "es6"
+    },
+
+    "include":[
+        "src/api/**/*.ts"
+    ],
+
+    "exclude":[
+        "node_modules"
+    ]
+}

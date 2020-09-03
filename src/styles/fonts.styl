@@ -1,0 +1,16 @@
+font($name, $prefix)
+    $src = s("~@/assets/fonts/%s-%s", $name, $prefix)
+
+    font-family: $name
+    font-display: swap
+    font-style: normal
+    src: url(s("%s.woff2", $src)) format("woff2"),
+         url(s("%s.woff", $src)) format("woff")
+
+@font-face
+    font Ubuntu Regular
+    font-weight: normal
+
+@font-face
+    font Ubuntu Medium
+    font-weight: 500
