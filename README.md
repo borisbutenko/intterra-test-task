@@ -1,3 +1,11 @@
+# [Watch online](https://borisbutenko.github.io/intterra-test-task/dist/)
+
+# How to run
+```
+$ yarn install && yarn run webpack-dev-server
+```
+[Open localhost](http://127.0.0.1:8000/)
+
 # IntTerra Web Developer Testing Assignment
 
 ## Что вы найдете в проекте
